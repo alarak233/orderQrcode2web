@@ -27,7 +27,7 @@ onMounted(() => { praseParas() })
 
 <template>
   <div>
-    <!-- <h1>扫码测试</h1> -->
+    <h1 style="text-align: center;">江苏工大金凯高端装备制造有限公司</h1>
 
     <svg v-if="isGenSvg" width="400" height="400" style="background: white;">
       <circle cx="200" cy="200" r="175" style="stroke: black;fill: none;" />
